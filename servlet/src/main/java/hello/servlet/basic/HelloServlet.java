@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
+//@WebServlet : 서블릿 애노테이션, name : 서블릿 이름, urlPatterns: URL매핑
 //이름을주고 , /hello로 오면 이게 실행된다.
 public class HelloServlet extends HttpServlet {//서블릿은 HttpServlet을 상속받음
 
