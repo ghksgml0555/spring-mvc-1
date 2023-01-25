@@ -34,7 +34,7 @@ public class ResponseHeaderServlet extends HttpServlet {
 
         ///[리다이렉트 편의 메서드]
         redirect(response);
-        
+
         response.getWriter().write("ok");
     }
 
